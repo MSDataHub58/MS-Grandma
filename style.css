@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #000;
+    --txt-color:#e4eeed;
+    --accent-color:#78cde2 ;
+    --dng-color:#e10700;
+    --card-bg:#08679f;
+}
+
+body {
+
+    background:linear-gradient(rgba(90, 86, 86, 0.85)), url(OIP.webp);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--txt-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/*nav sttings*/
+.nav {
+  
+    color: var(--txt-color);
+    position: fixed;
+    top: 0%;
+    left: 10%;
+    padding: 10px;
+    border: #e4eeed;
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 40px;
+
+}
+.nav-bar h4:hover {
+    color: bisque;
+}
+.nav-bar p {
+    color:bisque ;
+    margin-top: 15%;
+    font-weight: 600;
+}
+
+/**mid box or dislpay where i dont no what */
+.game-box {
+    color: var(--accent-color);
+    background-color:bisque;
+    border: 2px solid var(--txt-color);
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+    height: 350px;
+    width: 750px;
+}
+
+h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px var(--accent-color);
+
+}
+.stats-box{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin-bottom: 17px;
+    background-color: #000;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+#word-display{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: normal;
+    margin: 20px 0;
+    min-height: 40px;
+    text-shadow: 0 0 10px var(--accent-color);
+}
+
+/*inputass*/
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #e1e2e6;
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 10px var(--accent-color);
+}
+/*btns*/
+button {
+    margin-top: 15px;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    box-shadow: 0 0 15px var(--accent-color);
+    transform: scale(1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+    border-top: 1px solid var(--card-border);
+    position: absolute;
+    bottom: 0%;
+}
+
+.fpara {
+    color: var(--text-muted);
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.75rem;
+}
+
+
+/*code by shabi*/
