@@ -34,8 +34,8 @@ A fast-paced, retro typing test game built with HTML, CSS, and JavaScript. Test 
 
 ## How it Fulfills Grandma's Demands
 
-* **Speed & Agility:** Grandma loves fast typing to stay sharp. This game challenges users to type cyberpunk words quickly and accurately under a 60-second timer.
-* **Aesthetic:** Styled with a dark cyberpunk interface, custom neon glow, and retro arcade vibe (`OIP.webp`) to match Grandma's futuristic tech setup.
+* **Speed & Agility:** Grandma loves fast typing to stay sharp. This game challenges users to type words quickly and accurately under a 60-second timer.
+* **Aesthetic:** Styled with a dark and aesthetic interface, custom neon glow, and retro arcade vibe (`OIP.webp`) to match Grandma's futuristic tech setup.
 * **Entertainment:** Keeps Grandma entertained, focused, and on her toes with real-time score tracking and an interactive challenge box.
 
 
